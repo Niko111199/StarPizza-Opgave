@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/Background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+}
+
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(images/Menu\ Background.jpg);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(185, 185, 185, 0.484); 
+    background-blend-mode: overlay; 
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color:  #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.menu li a:hover {
+    background-color: #ee8905;
+    border-radius: 5rem;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-image: url(images/Menu\ Background.jpg);
+    background-color: rgba(185, 185, 185, 0.484); 
+    background-blend-mode: overlay; 
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 10;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main{
+    width: 80%; 
+    max-width: 600px; 
+    min-width: 300px; 
+    margin: 10vh auto;
+    padding: 20px;
+    background-color: #ee8905;
+    border-radius: 15px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.map-container {
+    position: fixed;
+    bottom: 7.5rem;
+    left: 12%;
+    transform: translateX(-50%);
+}
+
+.map-container iframe {
+    width: 25rem; 
+    height: 25rem; 
+    border: none;
+}
+
+.Headline{
+    width: 25rem;
+    height: auto;
+}
+
+ol, ul{
+    list-style-position: inside; 
+    padding-left: 0; 
+    margin: 0 auto; 
+    width: fit-content; 
+}
+
+#fixfooter{
+    min-height: 750px;
+}
+
+@media (max-width: 1050px) {
+    .map-container {
+        position: relative; 
+        bottom: 0; 
+        left: 0;
+        width: 100%;
+        transform: none; 
+    }
+
+    .map-container iframe {
+        width: 100%; 
+        height: 15rem; 
+    }
+     body {
+        background-image: url(images/alt\ background.png);
+    }
+}
+
+
+
