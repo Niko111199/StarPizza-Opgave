@@ -9,93 +9,191 @@
 </head>
 
 <body class="background">
-    
+
     <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="Menu.html">Menu</a></li>
         <li><a href="Order.html">Order</a></li>
     </ul>
 
-    <main>Orders can only be made over the phone right now at +4512345678 <br>
-        <br>
+    <main id="fixorder">
+
         <ol>
-            <li id="1.Pizza">
+            <li>
                 <span>Margherita <b>65kr</b></span>
+                <select class="pizza-select" data-pizza="margherita">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
                 <br>
                 <a href="images/margherita_big.jpg" target="_blank">
                     <img src="images/margherita_small.png" alt="Margherita pizza">
                 </a>
             </li>
 
-            <li id="2.Pizza">
-                Pepperoni <b>75kr</b> <br>
-                <a href="images/pepperoni_big.jpg" target="_blank">
-                    <img src="images/pepperoni_small.png" alt="Pepperoni pizza" title="Pepperoni pizza">
-                </a>
-            </li>
-            
-            <li id="3.Pizza">
-                Hawaiian <b>75kr</b> <br>
-                <a href="images/hawaiian_big.jpg" target="_blank">
-                    <img src="images/hawaiian_small.png" alt="Hawaiian pizza" title="Hawaiian pizza">
-                </a>
-            </li>
-
-            <li id="4.pizza">
-                Ranch Chicken <b>85kr</b> <br>
-                <a href="images/ranch_chicken_big.jpg" target="_blank">
-                    <img src="images/ranch_chicken_small.png" alt="Ranch Chicken pizza" title="Ranch Chicken pizza">
-                </a>
-            </li>
-            
-        
             <li>
-                Supreme  <b>90kr</b> <br>
-                <a href="images/Supreme_big.jpg" target="_blank">
-                    <img src="images/supreme_small.png" alt="Supreme pizza" title="Ranch Chicken pizza">
-                </a>
-            </li>
-        
-            <li>Veggie Lovers <b>75kr</b> <br>
-                <a href="images/veggie_lovers_big.jpg" target="_blank">
-                    <img src="images/veggie_lovers_small.png" alt="Veggie Lovers pizza" title="Veggie Lovers pizza">
-                </a>
-            </li>
-        </ol>
-
-        <ol start="7">
-            <li>Creamy Mushroom <b>95kr</b> <br>
-                <a href="images/creamy_mushroom_big.jpg" target="_blank">
-                    <img src="images/creamy_mushroom_small.png" alt="Creamy Mushroom Pasta" title="Creamy Mushroom Pasta">
-                </a>
-            </li>
-        
-            <li>Squid Scallop <b>95kr</b> <br>
-                <a href="images/squid_scallop_big.jpg" target="_blank">
-                    <img src="images/squid_scallop_small.png" alt="Squid Scallop Pasta" title="Squid Scallop Pasta">
-                </a>
-            </li>
-        </ol>
-
-        <ul>
-            <li>SoftDrinks <b>50kr</b>
-                <ul>
-                    <li>Coca-Cola</li>
-                    <li>Pepsi</li>
-                    <li>Fanta</li>
-                    <li>Sprite</li>
-                </ul>
-            </li>
-
-            <li>Sparkles <b>65kr</b>
-                <ul>
-                    <li>Beer</li>
-                    <li>Wine</li>
-                    <li>Drinks</li>
-                </ul>
+                <span>Pepperoni <b>75kr</b></span>
+                <select class="pizza-select" data-pizza="pepperoni">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
                 <br>
+                <a href="images/pepperoni_big.jpg" target="_blank">
+                    <img src="images/pepperoni_small.png" alt="Pepperoni pizza">
+                </a>
             </li>
-        </ul>
+
+            <li>
+                <span>Hawaiian <b>75kr</b></span>
+                <select class="pizza-select" data-pizza="hawaiian">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/hawaiian_big.jpg" target="_blank">
+                    <img src="images/hawaiian_small.png" alt="Hawaiian pizza">
+                </a>
+            </li>
+
+            <li>
+                <span>Ranch Chicken <b>85kr</b></span>
+                <select class="pizza-select" data-pizza="ranch_chicken">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/ranch_chicken_big.jpg" target="_blank">
+                    <img src="images/ranch_chicken_small.png" alt="Ranch Chicken pizza">
+                </a>
+            </li>
+
+            <li>
+                <span>Supreme <b>90kr</b></span>
+                <select class="pizza-select" data-pizza="supreme">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/supreme_big.jpg" target="_blank">
+                    <img src="images/supreme_small.png" alt="Supreme pizza">
+                </a>
+            </li>
+
+            <li>
+                <span>Veggie Lovers <b>75kr</b></span>
+                <select class="pizza-select" data-pizza="veggie_lovers">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/veggie_lovers_big.jpg" target="_blank">
+                    <img src="images/veggie_lovers_small.png" alt="Veggie Lovers pizza">
+                </a>
+            </li>
+
+            <li>
+                <span>Cremey Mushroom <b>95kr</b></span>
+                <select class="pizza-select" data-pizza="Mushroom">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/c.jpg" target="_blank">
+                    <img src="images/creamy_mushroom_small.png" alt="Cremey Mushroom Pasta">
+                </a>
+            </li>
+
+            <li>
+                <span>squid Scallop <b>95kr</b></span>
+                <select class="pizza-select" data-pizza="squid">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <br>
+                <a href="images/squid_scallop_big.jpg" target="_blank">
+                    <img src="images/squid_scallop_small.png" alt="squid Scallop Pasta">
+                </a>
+            </li>
+        </ol>
+
+        <h2 id="total-price">Samlet pris: 0 kr</h2>
+
+        <!--Joke Fjeren senere-->
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" id="joke">Bestil Order</a>
+
+        <button id="reset-button">Anuller bestilling</button>
     </main>
 
     <footer class="footer">
@@ -108,8 +206,7 @@
         </p>
     </footer>
 
-  
+    <script src="Scripts/order.js"> </script>
 
 </body>
-
 </html>

@@ -99,6 +99,24 @@ ol, ul{
     min-height: 750px;
 }
 
+#fixorder{
+    min-height: 1000px;
+}
+
+#joke, #reset-button{
+    color:  #ffffff;
+    font-weight: bold;
+    border-radius: 5rem;
+    background-color: #6e440d;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#joke:hover, #reset-button:hover{
+    background-color: #2e1b03;
+}
+
 @media (max-width: 1050px) {
     .map-container {
         position: relative; 

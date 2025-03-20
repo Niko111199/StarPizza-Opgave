@@ -16,7 +16,7 @@ async function SetMenu(file) {
                 e.innerHTML = list;
             }
         });
-
+            
 
         let a = document.getElementById("Pasta");
         data.forEach(category => {
